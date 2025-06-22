@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Allgrid-React/static/css/main.066ed628.css",
+    "main.css": "/Allgrid-React/static/css/main.da611069.css",
     "main.js": "/Allgrid-React/static/js/main.c3d8047f.js",
     "static/media/solution-product.png": "/Allgrid-React/static/media/solution-product.fbaad0021e3e97b4ce91.png",
     "static/media/video-thumbnail.png": "/Allgrid-React/static/media/video-thumbnail.d776d9f70440d2696d5a.png",
@@ -21,11 +21,11 @@
     "static/media/tower.svg": "/Allgrid-React/static/media/tower.d7fcef8865f6650301f096d6c66fbb7a.svg",
     "index.html": "/Allgrid-React/index.html",
     "static/media/allgrid-logo.svg": "/Allgrid-React/static/media/allgrid-logo.0de278940fee02299600c28d9d13a66f.svg",
-    "main.066ed628.css.map": "/Allgrid-React/static/css/main.066ed628.css.map",
+    "main.da611069.css.map": "/Allgrid-React/static/css/main.da611069.css.map",
     "main.c3d8047f.js.map": "/Allgrid-React/static/js/main.c3d8047f.js.map"
   },
   "entrypoints": [
-    "static/css/main.066ed628.css",
+    "static/css/main.da611069.css",
     "static/js/main.c3d8047f.js"
   ]
 }
