@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Allgrid-React/static/css/main.066ed628.css",
-    "main.js": "/Allgrid-React/static/js/main.2fe3c521.js",
+    "main.js": "/Allgrid-React/static/js/main.c3d8047f.js",
     "static/media/solution-product.png": "/Allgrid-React/static/media/solution-product.fbaad0021e3e97b4ce91.png",
     "static/media/video-thumbnail.png": "/Allgrid-React/static/media/video-thumbnail.d776d9f70440d2696d5a.png",
     "static/media/project-tiling.png": "/Allgrid-React/static/media/project-tiling.8a7c833c5420d4bfb90a.png",
@@ -22,10 +22,10 @@
     "index.html": "/Allgrid-React/index.html",
     "static/media/allgrid-logo.svg": "/Allgrid-React/static/media/allgrid-logo.0de278940fee02299600c28d9d13a66f.svg",
     "main.066ed628.css.map": "/Allgrid-React/static/css/main.066ed628.css.map",
-    "main.2fe3c521.js.map": "/Allgrid-React/static/js/main.2fe3c521.js.map"
+    "main.c3d8047f.js.map": "/Allgrid-React/static/js/main.c3d8047f.js.map"
   },
   "entrypoints": [
     "static/css/main.066ed628.css",
-    "static/js/main.2fe3c521.js"
+    "static/js/main.c3d8047f.js"
   ]
 }
