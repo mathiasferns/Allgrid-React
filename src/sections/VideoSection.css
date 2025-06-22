@@ -1,0 +1,117 @@
+.video-and-testimonials-section {
+  background-color: var(--bg-light, #FFFFFF);
+  padding-top: 100px;
+}
+
+.video-outer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  border: none;
+  border-radius: 24px;
+}
+
+.video-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+  border-bottom: 2px dotted #E5E5EA;
+  padding-bottom: 30px;
+}
+
+.video-header-text {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.video-header-logo {
+  height: 28px;
+}
+
+.video-player-wrapper {
+  position: relative;
+  cursor: pointer;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.video-thumbnail {
+  width: 100%;
+  display: block;
+}
+
+.video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  
+  backdrop-filter: blur(5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.video-player-wrapper:hover .video-play-button {
+  transform: translate(-50%, -50%) scale(1.05);
+  background-color: #fff;
+}
+
+/* Responsive styles for Video Section */
+@media (max-width: 900px) {
+  .video-and-testimonials-section {
+    padding-top: 50px;
+  }
+  .video-outer-container {
+    padding: 20px;
+    border-radius: 16px;
+  }
+  .video-header-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .video-and-testimonials-section {
+    padding-top: 24px;
+  }
+  .video-outer-container {
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .video-header {
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 16px;
+  }
+  .video-header-text {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .video-header-logo {
+    height: 18px;
+  }
+  .video-player-wrapper {
+    border-radius: 8px;
+  }
+  .video-play-button {
+    font-size: 0.95rem;
+    padding: 8px 14px;
+  }
+}
+

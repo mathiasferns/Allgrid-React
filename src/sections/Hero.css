@@ -1,0 +1,116 @@
+:root {
+  --bg-light: #FFFFFF;
+  --text-dark: #0F1014;
+  --text-secondary: #373738;
+  --divider-color: #E5E5EA;
+}
+
+.hero-section {
+  background-color: var(--bg-light);
+  text-align: center;
+  padding: 80px 0;
+  border-bottom: 2px dotted var(--divider-color);
+}
+
+.hero-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero-title {
+  font-family: 'Inter', sans-serif; 
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.2;
+  max-width: 850px;
+  margin: 0 auto 50px auto;
+}
+
+.hero-image-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-image-container img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px -10px rgba(0, 0, 0, 0.1);
+  display: block; 
+}
+
+.hero-description {
+  margin: 40px auto 0 auto;
+  color: rgb(112, 112, 112);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  max-width: 680px;
+}
+
+.watch-demo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #F9B428;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 30px;
+  padding-bottom: 3px;
+  border-bottom: 2px dotted #F9B428;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.watch-demo-link:hover {
+  color: #F9B428; 
+  border-bottom-color: #F9B428;
+}
+
+/* Responsive styles for Hero section */
+@media (max-width: 900px) {
+  .hero-title {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+  }
+  .hero-section {
+    padding: 50px 0;
+  }
+  .hero-image-container {
+    max-width: 100%;
+  }
+  .hero-description {
+    font-size: 1rem;
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    padding: 30px 0;
+  }
+  .hero-container {
+    padding: 0 0.5rem;
+  }
+  .hero-title {
+    font-size: 1.3rem;
+    max-width: 100%;
+    margin-bottom: 18px;
+  }
+  .hero-image-container {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .hero-image-container img {
+    border-radius: 10px;
+  }
+  .hero-description {
+    font-size: 0.98rem;
+    max-width: 100%;
+    margin-top: 16px;
+  }
+  .watch-demo-link {
+    font-size: 0.95rem;
+    margin-top: 18px;
+  }
+}

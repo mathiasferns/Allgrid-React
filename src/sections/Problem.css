@@ -1,0 +1,202 @@
+.problem-section {
+  padding: 100px 0;
+  background-color: var(--bg-light, #fff);
+}
+
+.problem-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px;
+  border: none;
+  border-radius: 24px;
+}
+
+.problem-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.problem-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-dark, #0F1014);
+  margin: 0 0 16px 0;
+}
+
+.title-highlight {
+  background-color: #FFFBEA; 
+  color: #F9B428;
+  padding: 2px 12px;
+  border-radius: 8px;
+}
+
+.problem-subtitle {
+  font-size: 1.125rem;
+  color: gray;
+  max-width: 550px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(180px, auto);
+  gap: 20px;
+  grid-template-areas:
+    "rework time"
+    "rework waste"
+    "breakage frustration";
+}
+
+.problem-card {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-rework      { grid-area: rework; }
+.card-time        { grid-area: time; }
+.card-waste       { grid-area: waste; }
+.card-breakage    { grid-area: breakage; }
+.card-frustration { grid-area: frustration; }
+
+.card-rework {
+  background-color: var(--dark-bg, #1C1C1E);
+  color: #fff;
+  padding: 40px;
+  justify-content: center;
+  gap: 20px;
+}
+.card-icon {
+  width: 48px;
+  height: 48px;
+}
+.card-text-large {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+}
+.card-text-large strong, .card-text-overlay strong, .card-text-medium strong {
+  font-weight: 800;
+}
+.highlight-yellow-text {
+  color: #F9B428;
+}
+
+.card-time {
+  background-color: #fff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  gap: 8px;
+}
+.icon-wrapper {
+  background-color: #FFFBEA;
+  color: var(--primary-yellow);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+}
+.card-text-small {
+  font-size: 1.125rem;
+  color: black;
+  margin: 0;
+}
+.card-text-huge {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.card-waste {
+  background-color: var(--primary-yellow);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.card-text-medium {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--dark-bg);
+  margin: 0;
+}
+
+.card-breakage img, .card-frustration img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-overlay {
+  position: absolute;
+  inset: 0; 
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  color: #fff;
+}
+.card-text-overlay {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .problem-section {
+    padding: 60px 0;
+  }
+  .problem-container {
+    padding: 20px;
+  }
+  .problem-title {
+    font-size: 2rem;
+  }
+  .problem-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(160px, auto);
+    gap: 16px;
+    grid-template-areas:
+      "rework"
+      "time"
+      "waste"
+      "breakage"
+      "frustration";
+  }
+}
+
+@media (max-width: 600px) {
+  .problem-section {
+    padding: 30px 0;
+  }
+  .problem-container {
+    padding: 8px;
+    border-radius: 12px;
+  }
+  .problem-title {
+    font-size: 1.2rem;
+  }
+  .problem-subtitle {
+    font-size: 0.98rem;
+    max-width: 100%;
+  }
+  .problem-card {
+    border-radius: 10px;
+    font-size: 0.98rem;
+  }
+}

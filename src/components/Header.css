@@ -1,0 +1,127 @@
+:root {
+  --dark-bg: #0F1014;
+  --primary-yellow: #FFD100;
+  --text-light: #FFFFFF;
+  --text-nav: rgba(255, 255, 255, 0.9);
+}
+
+.header {
+  background-color: var(--dark-bg);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  /* Using height is better for responsive scaling */
+  height: 28px; 
+  display: block; /* Removes bottom space under the image */
+}
+
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav a {
+  color: var(--text-nav);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+  color: var(--text-light);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: var(--text-light);
+}
+
+.language-flag {
+  width: 24px;
+  border-radius: 2px;
+}
+
+.btn-reseller {
+  background-color: transparent;
+  border: 2px solid var(--primary-yellow);
+  color: var(--primary-yellow);
+  padding: 10px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* Prevents button text from wrapping */
+}
+
+.btn-reseller:hover {
+  background-color: var(--primary-yellow);
+  color: var(--dark-bg);
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .header-container {
+    padding: 0 0.5rem;
+  }
+  .header-nav {
+    gap: 20px;
+  }
+  .btn-reseller {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0.5rem;
+  }
+  .header-logo {
+    height: 22px;
+    margin-bottom: 10px;
+  }
+  .header-nav {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .header-actions {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .btn-reseller {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+}
