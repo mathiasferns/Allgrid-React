@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Allgrid-React/static/css/main.066ed628.css",
+    "main.js": "/Allgrid-React/static/js/main.2fe3c521.js",
+    "static/media/solution-product.png": "/Allgrid-React/static/media/solution-product.fbaad0021e3e97b4ce91.png",
+    "static/media/video-thumbnail.png": "/Allgrid-React/static/media/video-thumbnail.d776d9f70440d2696d5a.png",
+    "static/media/project-tiling.png": "/Allgrid-React/static/media/project-tiling.8a7c833c5420d4bfb90a.png",
+    "static/media/problem-broken-tile.png": "/Allgrid-React/static/media/problem-broken-tile.b994567ce60c79f4785d.png",
+    "static/media/gallery-5.png": "/Allgrid-React/static/media/gallery-5.6d5366e17119f27ff0ad.png",
+    "static/media/project-hanging-pictures.png": "/Allgrid-React/static/media/project-hanging-pictures.5b7c9f14480f8fd68c34.png",
+    "static/media/project-measuring.png": "/Allgrid-React/static/media/project-measuring.864e1ac71dd9be49a716.png",
+    "static/media/hero-product.png": "/Allgrid-React/static/media/hero-product.6fd54a39186594b557fa.png",
+    "static/media/gallery-1.png": "/Allgrid-React/static/media/gallery-1.867b8439c6772d211bc8.png",
+    "static/media/project-plumbing.png": "/Allgrid-React/static/media/project-plumbing.11dcaec6f973b140a3be.png",
+    "static/media/testimonial-avatar.jpg": "/Allgrid-React/static/media/testimonial-avatar.9628c5abbdd3f932ec95.jpg",
+    "static/media/how-it-works-1.png": "/Allgrid-React/static/media/how-it-works-1.69e4c375f90c2a92bdca.png",
+    "static/media/how-it-works-4.png": "/Allgrid-React/static/media/how-it-works-4.91b9a6b3f10d7b70e741.png",
+    "static/media/round-yellow.svg": "/Allgrid-React/static/media/round-yellow.be9c15ec8d9a80225d720eb5c5bc5c12.svg",
+    "static/media/allgrid-logo-dark.svg": "/Allgrid-React/static/media/allgrid-logo-dark.46577de78f0a198422689e825a8e821a.svg",
+    "static/media/logo.png": "/Allgrid-React/static/media/logo.28e0fd90e46c25e30510.png",
+    "static/media/tower.svg": "/Allgrid-React/static/media/tower.d7fcef8865f6650301f096d6c66fbb7a.svg",
+    "index.html": "/Allgrid-React/index.html",
+    "static/media/allgrid-logo.svg": "/Allgrid-React/static/media/allgrid-logo.0de278940fee02299600c28d9d13a66f.svg",
+    "main.066ed628.css.map": "/Allgrid-React/static/css/main.066ed628.css.map",
+    "main.2fe3c521.js.map": "/Allgrid-React/static/js/main.2fe3c521.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.066ed628.css",
+    "static/js/main.2fe3c521.js"
+  ]
+}
